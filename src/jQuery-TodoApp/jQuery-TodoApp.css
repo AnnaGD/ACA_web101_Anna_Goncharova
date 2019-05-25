@@ -1,0 +1,52 @@
+body {
+	font-family: normal, 13px/16px;
+	background-color: whitesmoke;
+}
+
+.container {
+	padding: 20px;
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 40px;
+	background: rgb(138, 187, 216);
+	border-radius: 5px;
+}
+
+form {
+	display: inline-block;
+}
+
+input {
+	padding: 5px 20px 5px 5px;
+}
+
+#button {
+	display: inline-block;
+	background-color: #00ca2c;
+	color: #fffc5d;
+	border-radius: 5px;
+	text-align: center;
+	margin-top: 2px;
+	padding: 5px 15px;
+}
+
+#button:hover {
+	cursor: pointer;
+}
+
+ol {
+	padding-left: 20px;
+}
+
+ol li {
+	padding: 5px;
+	color: #000;
+}
+
+ol li:nth-child(even) {
+	background: #dfdfdf;
+}
+
+li:hover {
+	cursor: pointer;
+}
